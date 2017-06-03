@@ -1,0 +1,21 @@
+@charset "utf-8"
+* {margin:0; padding:0;}
+
+p,h3,h4,label{margin: 0;padding: 0;}
+body{font:14px/1.5 "宋体";}
+img{border:none;}
+ul,ol{list-style:none;}
+input,select,textarea{outline:none;border:none;background: none;}
+textarea{resize:none;}
+a{text-decoration:none;color: #656565;}
+dt,ul,dd,dl{margin: 0;padding: 0;}
+.clearfix{overflow: hidden;}
+/*清浮动*/
+.clearfix:after{content:"";*display:block;*clear:both;}
+.clearfix{zoom:1;}
+
+/*浮动*/
+.fl{float: left;}
+.fr{float: right;}
+h3{margin: 0;padding: 0;}
+
